@@ -1,9 +1,12 @@
-.intro-img{
-    height:20rem;
-    width:17rem;
+.card-img{
+    max-width:15rem;
     object-fit:cover;
     border-radius:10%; 
-    margin-left:30px; /*mettre plus à droite dans le card*/
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:auto;
+    margin-bottom:auto;
 }
 
 p.subparagraph {
@@ -15,4 +18,14 @@ p.subparagraph {
 .alert-dark:hover, .alert-secondary:hover {
     /*same colour as bootstrap info */
     background-color:#d1ecf1
+}
+
+.carousel-image {
+    width:300px;
+    height:300px;
+}
+
+.card{
+    /* bouger le card pour qu'il ne soit pas collé aux bords */
+    margin:0 5rem;
 }
