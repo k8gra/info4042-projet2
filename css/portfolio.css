@@ -1,15 +1,17 @@
 .card-img{
+    /*fixer une grosseur maximale*/
     max-width:15rem;
     object-fit:cover;
-    border-radius:10%; 
+    border-radius:10%;
+    /*centrer image*/ 
     display:block;
     margin-left:auto;
     margin-right:auto;
-    margin-top:auto;
-    margin-bottom:auto;
+    
 }
 
 p.subparagraph {
+    /*avoir le subparagraph en plus petit texte et avec un diffèrent famille de font*/
     font-size:1rem;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin:0;
@@ -17,6 +19,7 @@ p.subparagraph {
 
 .alert-dark:hover, .alert-secondary:hover {
     /*same colour as bootstrap info */
+    /*changer de couleur quand la souris va sur l'alert*/
     background-color:#d1ecf1
 }
 
